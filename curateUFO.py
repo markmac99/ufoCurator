@@ -290,6 +290,7 @@ def moveOne(path, img_path, moveback):
         shutil.move(os.path.join(srcpth, f), targpth)
     return
 
+
 def doCuration(path):
     if getattr(sys, 'frozen', False) is True:
         # frozen
